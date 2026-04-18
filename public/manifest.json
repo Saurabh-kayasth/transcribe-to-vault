@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "Transcribe To Vault",
+  "version": "1.0.0",
+  "description": "Auto-summarize Udemy lecture transcripts",
+  "permissions": ["activeTab", "downloads", "storage"],
+  "host_permissions": [
+    "https://www.udemy.com/*",
+    "http://localhost:11434/*",
+    "http://localhost:27123/*",
+    "https://api.openai.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://api.anthropic.com/*"
+  ],
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo.png",
+      "32": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.udemy.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}

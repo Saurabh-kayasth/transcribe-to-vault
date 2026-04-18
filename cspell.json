@@ -1,0 +1,96 @@
+{
+  "words": [
+    "aadhar",
+    "analyse",
+    "excalidraw",
+    "Formik",
+    "fseehawer",
+    "Futl",
+    "Goregao",
+    "Gwpk",
+    "hyperlocal",
+    "iconify",
+    "INCLUSIVITY",
+    "indi",
+    "MDBNS",
+    "Monetisation",
+    "OMNICHANNEL",
+    "organised",
+    "organisers",
+    "personalised",
+    "pincode",
+    "Pixellot",
+    "PrettoSlider",
+    "regs",
+    "revolutionise",
+    "Rkro",
+    "Shrey",
+    "summarised",
+    "svplay",
+    "swipeable",
+    "Thakur",
+    "TMWRKS",
+    "uuidv",
+    "VJYY",
+    "VYME",
+    "xlink",
+    "Xllth",
+    "zustand"
+  ],
+  "ignorePaths": [
+    "**/*.excalidraw",
+    "docs/data-provider.ts",
+    "docs/data-provider-types.ts",
+    "src/components/Editor/DataPointSection/DummyData.ts",
+    "src/saved_responses/categoryDropdown.json",
+    "src/store/dummyData.ts",
+    "package.json",
+    "package-lock.json",
+    "build",
+    "src/reportWebVitals.ts",
+    "coverage",
+    "tsconfig.tsbuildinfo",
+    "CONTRIBUTING.md",
+    ".cspell.json",
+    "next.config.mjs",
+    "src/app/globals.css",
+    "tailwind.config.ts",
+    "CHANGELOG.md",
+    "public",
+    "docker-compose.yml",
+    "src/Icons",
+    "src/app/components",
+    "src/utils/LandingPageUtils.ts",
+    "src/config/MetaConfig.ts",
+    "dist"
+  ],
+  "dictionaries": [
+    "font-names",
+    "tech-words",
+    "components-words",
+    "types-words"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "font-names",
+      "path": "./.cspell/font-names.txt",
+      "addWords": true
+    },
+    {
+      "name": "tech-words",
+      "path": "./.cspell/tech-words.txt",
+      "addWords": true
+    },
+    {
+      "name": "components-words",
+      "path": "./.cspell/components-words.txt",
+      "addWords": true
+    },
+    {
+      "name": "types-words",
+      "path": "./.cspell/types-words.txt",
+      "addWords": true
+    }
+  ],
+  "ignoreWords": ["mertjho", "gbyidfvtgbiuy", "leaderboard", "Tmxl"]
+}
