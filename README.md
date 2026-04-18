@@ -4,6 +4,8 @@
 
 # Transcribe To Vault — Chrome Extension
 
+[![Install on Chrome](https://img.shields.io/badge/Chrome%20Web%20Store-Install-blue?logo=googlechrome)](https://chromewebstore.google.com/detail/bocbdmbaeekeaelafgjnfoohnedmgihe?utm_source=item-share-cb)
+
 A Chrome extension that automatically summarizes Udemy lecture transcripts using any LLM and saves structured notes directly into your Obsidian vault.
 
 ---
